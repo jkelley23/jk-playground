@@ -1,0 +1,7 @@
+#az create resource group
+
+az group create --location
+                --name
+                [--managed-by]
+                [--subscription]
+                [--tags]
