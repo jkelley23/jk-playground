@@ -1,0 +1,11 @@
+#az create resource group
+
+az group create --location
+                --name
+                [--managed-by]
+                [--subscription]
+                [--tags]
+
+#or use this
+
+az group create -l westus -n MyResourceGroup
